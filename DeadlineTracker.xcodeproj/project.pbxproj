@@ -82,6 +82,10 @@
 		841ED93830630797005D7ED9 = {
 			isa = PBXGroup;
 			children = (
+				8467EA66307A4FC90001DE7D /* Services */,
+				8467EA65307A4F930001DE7D /* Controllers */,
+				8467EA64307A4F820001DE7D /* Views */,
+				8467EA63307A4F5D0001DE7D /* Models */,
 				841ED94330630797005D7ED9 /* DeadlineTracker */,
 				841ED95A3063079B005D7ED9 /* DeadlineTrackerTests */,
 				841ED9643063079B005D7ED9 /* DeadlineTrackerUITests */,
@@ -104,12 +108,10 @@
 			children = (
 				841ED94430630797005D7ED9 /* AppDelegate.swift */,
 				841ED94630630797005D7ED9 /* SceneDelegate.swift */,
-				841ED94830630797005D7ED9 /* ViewController.swift */,
 				841ED94A30630797005D7ED9 /* Main.storyboard */,
 				841ED94D3063079A005D7ED9 /* Assets.xcassets */,
 				841ED94F3063079A005D7ED9 /* LaunchScreen.storyboard */,
 				841ED9523063079A005D7ED9 /* Info.plist */,
-				841ED9743063149B005D7ED9 /* Models.swift */,
 				841ED976306314CF005D7ED9 /* README.md */,
 			);
 			path = DeadlineTracker;
@@ -130,6 +132,36 @@
 				841ED9673063079B005D7ED9 /* DeadlineTrackerUITestsLaunchTests.swift */,
 			);
 			path = DeadlineTrackerUITests;
+			sourceTree = "<group>";
+		};
+		8467EA63307A4F5D0001DE7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				841ED9743063149B005D7ED9 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8467EA64307A4F820001DE7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8467EA65307A4F930001DE7D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				841ED94830630797005D7ED9 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8467EA66307A4FC90001DE7D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
