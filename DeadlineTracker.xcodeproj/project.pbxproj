@@ -20,6 +20,7 @@
 		8467EA68307A509D0001DE7D /* SortStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467EA67307A509D0001DE7D /* SortStrategy.swift */; };
 		8467EA6A307A51AD0001DE7D /* AssignmentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467EA69307A51AD0001DE7D /* AssignmentBuilder.swift */; };
 		8467EA6C307A51F60001DE7D /* TypeAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467EA6B307A51F60001DE7D /* TypeAdapter.swift */; };
+		8467EA6E307A56C20001DE7D /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467EA6D307A56C20001DE7D /* TaskRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		8467EA67307A509D0001DE7D /* SortStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortStrategy.swift; sourceTree = "<group>"; };
 		8467EA69307A51AD0001DE7D /* AssignmentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentBuilder.swift; sourceTree = "<group>"; };
 		8467EA6B307A51F60001DE7D /* TypeAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAdapter.swift; sourceTree = "<group>"; };
+		8467EA6D307A56C20001DE7D /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				8467EA67307A509D0001DE7D /* SortStrategy.swift */,
 				8467EA69307A51AD0001DE7D /* AssignmentBuilder.swift */,
 				8467EA6B307A51F60001DE7D /* TypeAdapter.swift */,
+				8467EA6D307A56C20001DE7D /* TaskRepository.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			files = (
 				841ED94930630797005D7ED9 /* ViewController.swift in Sources */,
 				841ED94530630797005D7ED9 /* AppDelegate.swift in Sources */,
+				8467EA6E307A56C20001DE7D /* TaskRepository.swift in Sources */,
 				8467EA6A307A51AD0001DE7D /* AssignmentBuilder.swift in Sources */,
 				8467EA68307A509D0001DE7D /* SortStrategy.swift in Sources */,
 				841ED94730630797005D7ED9 /* SceneDelegate.swift in Sources */,
